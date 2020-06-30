@@ -1,0 +1,137 @@
+body{
+margin: 0px;
+text-align: center;
+font-family: 'Bree Serif', serif;
+font-size: 1rem;
+color: #40514E;
+line-height: 2;
+}
+
+h1
+{
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+h2
+{
+color: #66BFBF;
+  text-align: center;
+  font-size:1.6rem;
+  font-weight:800;
+  padding-bottom: 10px;
+  font-family:'Merriweather', serif;
+}
+h3
+{
+  color:#11999E;
+  text-align: center;
+  font-size: 1rem;
+font-family:'Merriweather', serif;
+}
+hr{
+border: dotted #EAF6F6 6px;
+border-bottom: none;
+border-width: 5px;
+width: 4%;
+margin: 100px auto;
+}
+a
+{
+  color: #11999E;
+  margin: 10px 20px;
+  font-family:'Merriweather', serif;
+  text-decoration: none;
+}
+a:hover
+{
+  color:#EAF6F6;
+}
+
+.top-container{
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+.skills
+{
+  margin-top: 25px;
+}
+.mid-container{
+  margin: 80px 0;
+}
+.bottom-container
+{
+  padding: 50px 0 20px;
+  background-color: #66BFBF;
+}
+.firstCloud{
+  position:absolute;
+  right: 300px;
+  top: 40px;
+
+}
+.secondCloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.profileIcon
+{
+  width: 10%
+}
+
+.skill-row{
+  width: 50%;
+  margin: 80px auto 100px auto;
+  text-align: left;
+}
+.compimg{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.devIcon1
+{width: 25%;
+float: right;
+margin-left: 30px;
+}
+.introInfo
+{
+  margin: auto;
+   width:30%;
+}
+.contactMessage
+{
+  width: 40%;
+  margin:40px auto 60px;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999E 100%);
+	background-color:#11cdd4;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family:'Merriweather', serif;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px 20px 10px 20px;
+	text-decoration:none;
+
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #30e3cb 5%, #2bc4ad 100%);
+	background-color:#30e3cb;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.copyRight{
+  color: #eaf6f6;
+  font-size: 0.7rem;
+  padding: 20px 0px;
+}
